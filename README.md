@@ -2,7 +2,7 @@
 
  ![preview](./.github/preview.gif)
  
- - Landing Page para uma Plataforma de Receitas
+ - Site responsivo de Receitas 🥗
 
  - Projeto construído durante o curso PROPROFISSÃO.
 
