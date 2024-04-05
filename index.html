@@ -1,48 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<title> WEB PRAROZ</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de Receitas brasileiro">
+    <meta name="keywords" content="Receitas, Site">
+    <title>Receitas Deliciosas</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header>
-		<div class="main">
-		<div> class="logo">
-			<img src="logo.png">
-		</div>
-		
-		 <ul>
-		 <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
-		 <li><a href="#">About</a></li>
-		 <li><a href="#">Dessert</a></li>
-		 <li><a href="#">Appetizers</a></li>
-		 <li><a href="#">Pasta</a></li>
-		 <li><a href="#">Salad</a></li>
-		 <li><a href="#">Burger</a></li>
-		 <li><a href="#">Pizza</a></li>
-		 <li><a href="#"><i class="fa fa-caret-down"></i> More Recipes <i class="fa fa-caret-down"></i></a>
-		 	<div class="sub-menu">
-		 		<ul>	 
-		 		 <li><a href="#">Cookies</a></li>
-		 		 <li><a href="#">Sandwich</a></li>
-		 	 </ul>
-		 	</div>
-		 </li>
-		</ul>
+    <header>
+        <div class="container">
+            <h1 class="nome">Proaz Receitas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Receitas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-		 </div>
-		 <div class="title">
-		 	<h1>HOMIE RECIPES</h1>
-		 </div>
-		 <div class="button">
-		 	<a href="#" class="btn">WATCH VIDEO</a>
-		 	<a href="#" class="btn">BASIC SKILLS</a>
-		 	<a href="#" class="btn">LEARN MORE</a>
-		 </div>
+    <section class="hero">
+        <div class="container">
+            <h2>Receita Destaque 😋</h2>
+            <div class="recipe">
+                <img src="https://assets.bonappetit.com/photos/61b775620fb3fcc4cbf036c1/master/pass/20211208%20Spaghetti%20Squash%20with%20Tomato%20Sauce%20and%20Mozarella%20LEDE.jpg" alt="Receita Destaque">
+                <h3>Lasanha Moderna</h3>
+                <p>A lasanha é uma receita tipicamente italiana, feita com carne e molho de tomate sobre camadas de folhas de Lasanha.</p>
+                <a href="#" class="btn">Ver Receita</a>
+            </div>
+        </div>
+    </section>
 
-		 	</header>
+    <section class="recipes">
+        <div class="container">
+            <h2>Outras Receitas</h2>
+            <div class="recipe-grid">
+                <div class="recipe">
+                    <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/09/23/0/FNK_Skillet-Chicken-Thighs_H1_s4x3.jpg.rend.hgtvcom.616.462.suffix/1632420651769.jpeg" alt="Receita 1">
+                    <h3>Frango ao molho branco</h3>
+                </div>
+                <div class="recipe">
+                    <img src="https://static01.nyt.com/images/2020/01/29/dining/27Romanrex/merlin_167079174_ecc032e7-071b-44ab-8852-0d5025d0e90d-superJumbo.jpg" alt="Receita 2">
+                    <h3>Macarrão Italiano</h3>
+                </div>
+                <div class="recipe">
+                    <img src="https://www.realsimple.com/thmb/fMh6cWLYxsddO3BuSJXanCk1gpI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-dinner-recipes-f768402675e04452b1531360736da8b5.jpg" alt="Receita 3">
+                    <h3>Bife Caesar</h3>
+                </div>
+                <!-- Adicione mais receitas conforme necessário -->
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Receitas Deliciosas</p>
+        </div>
+    </footer>
 </body>
 </html>

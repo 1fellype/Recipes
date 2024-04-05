@@ -1,6 +1,6 @@
 # Recipes
 
- ![preview](./.github/preview.png)
+ ![preview](./.github/preview.gif)
  
  - Landing Page para uma Plataforma de Receitas
 
